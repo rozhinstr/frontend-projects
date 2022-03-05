@@ -108,3 +108,9 @@ img{
     text-align: center;
     font-size: 30px;
 }
+/* Media Queries */
+@media (max-width: 700px) {
+   .container .card{
+       display: list-item;
+   }
+}

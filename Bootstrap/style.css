@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(199, 196, 194);
+}
+body #all{
+    margin: auto ;
+}
+.header{
+    margin-left: 115px;
+    margin-right: 130px;
+}
+.header #project{
+    font-weight: bolder;
+    font-size: 30px;
+    width: 200px;
+    display: inline;
+    margin-top: 5px;
+}
+.header .newproject{
+    float: right;
+    display: inline;
+    margin-top: 8px;
+}
+#all .container{
+    margin-top: -30px;
+}
+.container .percentage{
+    font-weight: bold;
+    width: 50px;
+    height: 10px;
+    display: inline;
+    float: right;
+    margin-bottom: 5px;
+    margin-right: -10px;
+}
+.container .prog{
+    font-weight: bold;
+    width: 50px;
+    height: 10px;
+    display: inline;
+    margin-bottom: 5px;
+}
+.container .card{
+    height: 400px;
+    width: 150px;
+    border: solid 3px rgb(228, 215, 215);
+    margin-bottom: 20px;
+    
+}
+.container .badge{
+    color: black;
+    margin-top: -15px;
+    font-size: x-small;
+}
+.container .card-title{
+    width: 190px;
+    height: 20px;
+    margin-bottom: 5px;
+    font-size: small;
+}
+.container .col{
+    width: 80px;
+      
+}
+img{
+    display: inline;
+    height: 40px;
+    width: 40px;
+}
+.card-body{
+    display: inline;
+}
+.card-body svg{
+    color: rgb(27, 137, 201);
+    float: right;
+    height: 25px;
+    width: 25px;
+    margin-top: -20px;
+}
+.row .bluebox{
+    width: 150px;
+    height: 200px;
+    background-color: rgb(36, 144, 187);
+    margin-left: 14px;
+    margin-right: 32px;
+    padding-top: 70px;
+    display: inline;
+    text-align: center;
+    font-size: 30px;
+}
+.row .pinkbox{
+    width: 150px;
+    height: 200px;
+    background-color: rgb(240, 138, 209);
+    margin-left: 14px;
+    margin-right: 32px;
+    padding-top: 70px;
+    display: inline;
+    text-align: center;
+    font-size: 30px;
+}
+.row .greenbox{
+    width: 150px;
+    height: 200px;
+    background-color: rgb(74, 206, 155);
+    margin-left: 14px;
+    margin-right: 32px;
+    padding-top: 70px;
+    display: inline;
+    text-align: center;
+    font-size: 30px;
+}

@@ -1,14 +1,273 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <button type="button" class="btn btn-primary">Primary</button>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <div id="all">
+    <div class="header">
+      <p id="project">Projects</p>
+      <div class="newproject">
+        <button type="button" class="btn btn-primary">New project</button>
+      </div>
+    </div>
+    <br><br>
+    <div class="container">
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <p class="card-title">Landing page redesign</p>
+              <span class="badge bg-success">Finished</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-three-dots" viewBox="0 0 16 16">
+                <path
+                  d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+              </svg>
+              <br><br>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua.In aliquam sem fringilla ut.</p>
+              <div class="characters">
+                <img src="images/1.png" class="rounded-circle">
+                <img src="images/2.png" class="rounded-circle">
+                <img src="images/3.png" class="rounded-circle">
+              </div>
+              <br><br><br>
+              <p class="prog">Progress</p>
+              <p class="percentage">100%</p>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <p class="card-title">Company posters</p>
+              <span class="badge bg-warning text-dark">In progress</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-three-dots" viewBox="0 0 16 16">
+                <path
+                  d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+              </svg>
+              <br><br>
+              <p class="card-text">Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus et.
+                Feugiat pretium nibh ipsum consequat nisl.</p>
+              <br>
+              <div class="characters">
+                <img src="images/4.png" class="rounded-circle">
+                <img src="images/5.png" class="rounded-circle">
+                <img src="images/6.png" class="rounded-circle">
+              </div>
+              <br><br><br>
+              <p class="prog">Progress</p>
+              <p class="percentage">75%</p>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <p class="card-title">Product page design</p>
+              <span class="badge bg-success">Finished</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-three-dots" viewBox="0 0 16 16">
+                <path
+                  d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+              </svg>
+              <br><br>
+              <p class="card-text">Nibh sed pulvinar proin gravida hendrerit lectus. Blandit massa enim nec dui nunc
+                mattis enim ut tellus. Vivamus arcu felis bibendum ut tristique et egestas quis ipsum.</p>
+              <div class="characters">
+                <img src="images/7.png" class="rounded-circle">
+                <img src="images/8.png" class="rounded-circle">
+                <img src="images/9.png" class="rounded-circle">
+              </div>
+              <br><br><br>
+              <p class="prog">Progress</p>
+              <p class="percentage">100%</p>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;" id="fourthcol">
+            <div class="card-body">
+              <p class="card-title">Upgrade CRM software</p>
+              <span class="badge bg-warning text-dark">In progress</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-three-dots" viewBox="0 0 16 16">
+                <path
+                  d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+              </svg>
+              <br><br>
+              <p class="card-text">Scelerisque purus semper eget duis at tellus at urna condimentum. Purus semper eget
+                duis at tellus. Luctus venenatis lectus magna fringilla urna porttitor</p>
+              <div class="characters">
+                <img src="images/10.png" class="rounded-circle">
+                <img src="images/11.png" class="rounded-circle">
+                <img src="images/12.png" class="rounded-circle">
+              </div>
+              <br><br><br>
+              <p class="prog">Progress</p>
+              <p class="percentage">50%</p>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col bluebox">
+          350 X 280
+        </div>
+        <div class="col pinkbox">
+          350 X 280
+        </div>
+        <div class="col greenbox">
+          350 X 280
+        </div>
+        <div class="col bluebox">
+          350 X 280
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <p class="card-title">Fix form validation</p>
+              <span class="badge bg-warning text-dark">In progress</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-three-dots" viewBox="0 0 16 16">
+                <path
+                  d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+              </svg>
+              <br><br>
+              <p class="card-text">Ac tortor dignissim convallis aenean et tortor. Fringilla urna porttitor rhoncus
+                dolor purus non enim.Bibendum neque egestas congue quisque egestas diam. </p>
+              <div class="characters">
+                <img src="images/13.png" class="rounded-circle">
+                <img src="images/14.png" class="rounded-circle">
+                <img src="images/15.png" class="rounded-circle">
+              </div>
+              <br><br><br>
+              <p class="prog">Progress</p>
+              <p class="percentage">65%</p>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <p class="card-title">New company logo</p>
+              <span class="badge bg-danger">On hold</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-three-dots" viewBox="0 0 16 16">
+                <path
+                  d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+              </svg>
+              <br><br>
+              <p class="card-text">Lorem donec massa sapien faucibus et molestie. Orci dapibus ultrices in iaculis
+                nunc sed.Lobortis mattis aliquam faucibus.Dictumst vestibulum rhoncus est pellentesque. </p>
+              <div class="characters">
+                <img src="images/16.png" class="rounded-circle">
+                <img src="images/17.png" class="rounded-circle">
+                <img src="images/18.png" class="rounded-circle">
+              </div>
+              <br><br>
+              <p class="prog">Progress</p>
+              <p class="percentage">20%</p>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <p class="card-title">Upgrade to latest Maps API</p>
+              <span class="badge bg-success">Finished</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-three-dots" viewBox="0 0 16 16">
+                <path
+                  d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+              </svg>
+              <br><br>
+              <p class="card-text">Orci phasellus egestas tellus rutrum tellus pellentesque. Leo vel orci porta non.
+                In hac habitasse platea dictumst quisque.Fames ac turpis egestas maecenas pharetra convallis.</p>
+              <div class="characters">
+                <img src="images/19.png" class="rounded-circle">
+                <img src="images/20.png" class="rounded-circle">
+                <img src="images/21.png" class="rounded-circle">
+              </div>
+              <br><br>
+              <p class="prog">Progress</p>
+              <p class="percentage">100%</p>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width:100%" aria-valuenow="100" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <p class="card-title">Refactor backend templates</p>
+              <span class="badge bg-danger">On hold</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-three-dots" viewBox="0 0 16 16">
+                <path
+                  d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+              </svg>
+              <br><br>
+              <p class="card-text">Metus vulputate eu scelerisque felis imperdiet proin fermentum leo. Sit amet
+                consectetur adipiscing elit pellentesque habitant morbi tristique. </p>
+              <br>
+              <div class="characters">
+                <img src="images/19.png" class="rounded-circle">
+                <img src="images/20.png" class="rounded-circle">
+                <img src="images/21.png" class="rounded-circle">
+              </div>
+              <br><br>
+              <p class="prog">Progress</p>
+              <p class="percentage">0%</p>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width:0%" aria-valuenow="0" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
 </body>
+
 </html>
